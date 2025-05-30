@@ -1,0 +1,5 @@
+% Pattern: list starts with helloMore actions
+starts_with_hello([hello|_]).
+
+% Pattern: list ends with bye
+ends_with_bye(List) :- append(_, [bye], List).
